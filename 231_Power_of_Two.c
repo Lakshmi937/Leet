@@ -1,8 +1,6 @@
-class Solution {
-public:
-    bool isPowerOfTwo(int n) {
+ bool isPowerOfTwo(int n) {
         bool h= false;
-        for(int i=0;pow(2, i) <= n;i++){
+        for(int i=0;pow(2,i)<=n;i++){
         if(pow(2,i)==n){
             h=true;
             break;
@@ -15,6 +13,5 @@ public:
     else{
         printf("False");
     }
-   return h;
- }
-};
+  return h;
+}
